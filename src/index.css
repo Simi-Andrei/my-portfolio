@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merienda", sans-serif;
+}
+
+#myPhoto {
+  border-radius: 50%;
+}
+
+#homeSpan,
+#aboutSpan,
+#projectsSpan,
+#contactSpan {
+  background-color: #10b981;
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  top: 1.2rem;
+  left: 0;
+  transition: all 0.2s ease;
+}
+
+nav ul #homeLink:hover > #homeSpan {
+  width: 100%;
+}
+
+nav ul #aboutLink:hover > #aboutSpan {
+  width: 100%;
+}
+
+nav ul #projectsLink:hover > #projectsSpan {
+  width: 100%;
+}
+
+nav ul #contactLink:hover > #contactSpan {
+  width: 100%;
+}
+
+#scrollText {
+  font-size: 9px;
+}

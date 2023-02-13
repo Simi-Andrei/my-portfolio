@@ -36,7 +36,7 @@ const Aboutsection = () => {
   ];
 
   return (
-    <section id="about" className="z-10 py-4 mt-64 relative scroll-mt-24">
+    <section id="about" className="z-10 py-4 md:mt-64 relative scroll-mt-24">
       <h2 className="inline-block text-xl font-bold text-emerald-500 tracking-wider border-b-2 border-b-emerald-500 leading-none mb-16">
         About me
       </h2>

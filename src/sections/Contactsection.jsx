@@ -45,6 +45,7 @@ const Contactsection = () => {
               type="text"
               id="name"
               name="name"
+              required
             />
             <label className="block text-xs mb-1" htmlFor="email">
               Your email
@@ -54,6 +55,7 @@ const Contactsection = () => {
               type="email"
               id="email"
               name="email"
+              required
             />
             <label className="block text-xs mb-1" htmlFor="subject">
               Subject
@@ -63,6 +65,7 @@ const Contactsection = () => {
               type="text"
               id="subject"
               name="subject"
+              required
             />
             <label className="block text-xs mb-1" htmlFor="message">
               Your message
@@ -73,6 +76,7 @@ const Contactsection = () => {
               id="message"
               cols="30"
               rows="3"
+              required
             ></textarea>
             <button
               type="submit"

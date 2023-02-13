@@ -82,7 +82,7 @@ const Contactsection = () => {
             </button>
           </form>
           {formSubmitted && (
-            <div className="bg-emerald-500 absolute h-[388px] w-full top-12 left-0 rounded-md flex items-center justify-center">
+            <div className="bg-emerald-500 absolute h-full w-full top-12 left-0 rounded-md flex items-center justify-center">
               <p className="text-white text-2xl">Your message has been sent!</p>
             </div>
           )}

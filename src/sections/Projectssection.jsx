@@ -27,7 +27,18 @@ const Projectssection = () => {
               Technologies used:{" "}
               <span className="text-emerald-500">HTML, CSS, JS</span>
             </p>
-            <p>Responsiveness: fully responsive</p>
+            <p className="mb-2">Responsiveness: fully responsive</p>
+            <p>
+              URL:{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://simi-andrei.github.io/hi-there/"
+                className="text-xs text-emerald-500 underline"
+              >
+                Check app
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -58,13 +69,26 @@ const Projectssection = () => {
           <div className="xl:w-5/12 text-sm flex flex-col items-start justify-center mt-4">
             <p className="mb-2">
               Description: Online restaurant with many items on the menu. You
-              can add to cart pizza, burgers, good old wines and many others.
+              can add to cart pizza, burgers, good old wines and many others. On
+              the first render, the home page appears to be white but on a Home
+              click it gets back to normal.
             </p>
             <p className="mb-2">
               Technologies used:{" "}
               <span className="text-emerald-500">ReactJS</span>
             </p>
             <p>Responsiveness: not responsive</p>
+            <p>
+              URL:{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://simi-andrei.github.io/hungry-me/"
+                className="text-xs text-emerald-500 underline"
+              >
+                Check app
+              </a>
+            </p>
           </div>
         </div>
       </div>

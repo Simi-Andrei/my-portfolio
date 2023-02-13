@@ -71,7 +71,7 @@ function App() {
       </main>
       <button
         onClick={scrollToTop}
-        className={`z-20 fixed top-[90%] right-[8%] bg-emerald-500 p-4 rounded-full border border-emerald-600 text-white transition-all duration-200 ${
+        className={`z-20 fixed top-[85%] right-[8%] bg-emerald-500 p-4 rounded-full border border-emerald-600 text-white transition-all duration-200 ${
           visible ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       >

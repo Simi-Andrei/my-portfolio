@@ -60,7 +60,7 @@ function App() {
         <Contactsection />
         <button
           onClick={themeHandler}
-          className="fixed top-24 right-[6.5%] md:right-[10%] lg:right-[17.5%] p-1 cursor-pointer rounded-full border-2 border-emerald-500 hover:border-emerald-500 transition-all duration-200 bg-white text-emerald-500 dark:bg-transparent z-50 outline-none"
+          className="fixed top-24 right-[6.5%] md:right-[10%] lg:right-[17.5%] p-1 cursor-pointer rounded-full border-2 border-emerald-500 hover:border-emerald-500 transition-all duration-200 bg-white text-emerald-500 dark:bg-transparent z-50 active:outline-none focus:outline-none"
         >
           {theme === "dark" ? (
             <BsSun className="text-lg" />

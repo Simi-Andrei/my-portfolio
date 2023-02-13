@@ -39,6 +39,7 @@ const Homesection = ({ theme }) => {
           href="https://github.com/Simi-Andrei?tab=repositories"
           target="_blank"
           rel="noreferrer"
+          className="active:outline-none focus:outline-none"
         >
           <BsGithub className="text-lg drop-shadow-sm my-2 hover:text-emerald-500" />
         </a>
@@ -46,6 +47,7 @@ const Homesection = ({ theme }) => {
           href="https://www.facebook.com/profile.php?id=100006964906360"
           target="_blank"
           rel="noreferrer"
+          className="active:outline-none focus:outline-none"
         >
           <BsFacebook className="text-lg drop-shadow-sm my-2 hover:text-emerald-500" />
         </a>
@@ -53,6 +55,7 @@ const Homesection = ({ theme }) => {
           href="https://www.linkedin.com/in/andrei-simigiu-a5b83a225/"
           target="_blank"
           rel="noreferrer"
+          className="active:outline-none focus:outline-none"
         >
           <BsLinkedin className="rounded-full text-lg drop-shadow-sm my-2 hover:text-emerald-500" />
         </a>

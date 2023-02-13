@@ -11,7 +11,7 @@ module.exports = {
         200: "2",
       },
       colors: {
-        dark: "#001a00",
+        dark: "black",
       },
       translate: {
         100: "100rem",

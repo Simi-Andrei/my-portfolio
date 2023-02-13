@@ -1,8 +1,9 @@
 import { BsGithub, BsFacebook, BsLinkedin, BsArrowDown } from "react-icons/bs";
 import me from "../assets/images/me.jpg";
+import meDark from "../assets/images/meDark.jpg";
 import CV from "../assets/CV/simigiuAndreiCV.pdf";
 
-const Homesection = () => {
+const Homesection = ({ theme }) => {
   return (
     <section
       id="home"
@@ -17,7 +18,7 @@ const Homesection = () => {
           ~Marc Anthony
         </span>
       </p>
-      <div className="mt-20">
+      <div className="mt-20 mx-auto sm:flex">
         <a
           href="#projects"
           className="drop-shadow-md border border-emerald-500 rounded-md py-1 px-6 bg-emerald-500 text-white hover:text-emerald-500 hover:bg-transparent transition-all duration-200"
@@ -58,7 +59,7 @@ const Homesection = () => {
       </div>
       <img
         id="myPhoto"
-        src={me}
+        src={theme === "dark" ? meDark : me}
         alt="me"
         className="absolute top-8 right-0 -z-10 w-96 lg:w-6/12 opacity-70"
       />

@@ -54,13 +54,13 @@ function App() {
     <div className="relative flex flex-col justify-between min-h-screen">
       <Header />
       <main className="relative flex-1 w-full lg:px-[20%] mx-auto p-4 dark:bg-dark dark:text-white">
-        <Homesection />
-        <Aboutsection />
+        <Homesection theme={theme} />
+        <Aboutsection theme={theme} />
         <Projectssection />
         <Contactsection />
         <button
           onClick={themeHandler}
-          className="fixed top-24 right-[6.5%] md:right-[10%] lg:right-[17.5%] p-1 cursor-pointer rounded-full border-2 border-emerald-500 hover:border-emerald-500 transition-all duration-200 bg-white text-emerald-500 dark:bg-transparent z-50"
+          className="fixed top-24 right-[6.5%] md:right-[10%] lg:right-[17.5%] p-1 cursor-pointer rounded-full border-2 border-emerald-500 hover:border-emerald-500 transition-all duration-200 bg-white text-emerald-500 dark:bg-transparent z-50 outline-none"
         >
           {theme === "dark" ? (
             <BsSun className="text-lg" />
@@ -72,7 +72,7 @@ function App() {
       <button
         onClick={scrollToTop}
         className={`z-20 fixed top-[85%] right-[8%] bg-emerald-500 p-4 rounded-full border border-emerald-600 text-white transition-all duration-200 ${
-          visible ? "opacity-100" : "opacity-0 pointer-events-none"
+          visible ? "opacity-100" : "opacity-0 pointer-events-none outline-none"
         }`}
       >
         <BsChevronDoubleUp className="text-xl" />

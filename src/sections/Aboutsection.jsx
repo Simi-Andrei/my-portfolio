@@ -12,7 +12,7 @@ import {
 import jsonwebtoken from "../assets/images/jsonwebtoken.png";
 import aboutDoggo from "../assets/images/aboutDoggo.jpg";
 
-const Aboutsection = () => {
+const Aboutsection = ({ theme }) => {
   const frontendSkills = [
     { id: "1", icon: <FaHtml5 />, skill: "HTML5", color: "#e34c26" },
     { id: "2", icon: <FaCss3Alt />, skill: "CSS3", color: "#264de4" },
@@ -30,7 +30,12 @@ const Aboutsection = () => {
 
   const backendSkills = [
     { id: "1", icon: <FaNodeJs />, skill: "NodeJS", color: "#3c873a" },
-    { id: "2", icon: <SiExpress />, skill: "ExpressJS", color: "black" },
+    {
+      id: "2",
+      icon: <SiExpress />,
+      skill: "ExpressJS",
+      color: `${theme === "dark" ? "#fff" : "#000"}`,
+    },
     { id: "3", icon: <SiMongodb />, skill: "MongoDB", color: "#3FA037" },
     { id: "4", icon: <SiJavascript />, skill: "JavaScript", color: "#f0db4f" },
   ];

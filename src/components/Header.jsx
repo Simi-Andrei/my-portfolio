@@ -68,7 +68,7 @@ const Header = () => {
           </li>
         </ul>
         <div
-          className={`bg-white dark:bg-dark fixed top-20 right-0 w-1/2 h-[calc(100vh-80px)] ease text-sm transition-all duration-400 ${
+          className={`bg-white dark:bg-dark fixed top-20 right-0 w-1/2 h-[calc(100vh-80px)] ease text-sm transition-all duration-400 dark:border-l dark:border-l-gray-900 ${
             !navOpen
               ? "-translate-x-100 opacity-0"
               : "translate-x-0 opacity-100"

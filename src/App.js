@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Homesection from "./sections/Homesection";
 import Aboutsection from "./sections/Aboutsection";
-import Projectssection from "./sections/Projectssection";
+import Projectsection from "./sections/Projectsection";
 import Contactsection from "./sections/Contactsection";
 import { BsChevronDoubleUp, BsMoon, BsSun } from "react-icons/bs";
 import { useEffect, useState } from "react";
@@ -56,7 +56,7 @@ function App() {
       <main className="relative flex-1 w-full lg:px-[20%] mx-auto p-4 dark:bg-dark dark:text-white">
         <Homesection theme={theme} />
         <Aboutsection theme={theme} />
-        <Projectssection />
+        <Projectsection />
         <Contactsection />
         <button
           onClick={themeHandler}

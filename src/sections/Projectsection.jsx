@@ -1,4 +1,5 @@
 import firstPortfolio from "../assets/images/firstPortfolio.png";
+import techieProject from "../assets/images/techieProject.png";
 import artiSimi from "../assets/images/artiSimi.png";
 import hungryMe from "../assets/images/hungryMe.png";
 import vremeaITSchool from "../assets/images/vremeaITSchool.png";
@@ -12,6 +13,42 @@ const Projectssection = () => {
       <h2 className="inline-block text-xl font-bold text-emerald-500 tracking-wider border-b-2 border-b-emerald-500 leading-none">
         Projects
       </h2>
+      <div className="py-5 border-b border-emerald-500">
+        <div className="flex flex-wrap justify-between items-center">
+          <div className="w-full">
+            <img src={techieProject} alt="project" />
+          </div>
+          <div className="w-full text-sm flex flex-col items-start justify-center mt-4">
+            <p className="mb-2">
+              Description: Full stack ecommerce website. You can visit and
+              explore different product categories, add them to cart and place
+              orders. Implemented PayPal payment method to pay for orders. There
+              is also a profile section where you can search through your
+              orders, check which order is paid and/or delivered and update your
+              profile information.
+            </p>
+            <p className="mb-2">
+              Technologies used:{" "}
+              <span className="text-emerald-500">
+                HTML, CSS, JS, Tailwind CSS, Redux Toolkit, Formik, Yup,
+                MongoDB, ExpressJS, Mongoose, jsonwebtoken
+              </span>
+            </p>
+            <p className="mb-2">Responsiveness: fully responsive</p>
+            <p>
+              URL:{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://itschool-techie-project.onrender.com/"
+                className="text-xs text-emerald-500 underline"
+              >
+                Check app
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="py-5 border-b border-emerald-500">
         <div className="flex flex-wrap justify-between items-center">
           <div className="xl:w-5/12">
